@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/JavaScrip" src="arquivo1.js"></script>
     <title>Exercicio 2</title>
+    <script>
+        function mudarCor(cor) {
+            document.body.style.background = cor;
+        }
+    </script>
 </head>
 
 <body>
@@ -23,10 +27,10 @@
 
     <div>
 
-        <a href="" id="vermelho" onmouseover="javascript: this.style.backgroundColor = 'red'">Vermelho</a><br>
-        <a href="" id="azul" onmouseover="javascript: this.style.backgroundColor = 'blue'">Azul</a><br>
-        <a href="" id="verde" onmouseover="javascript: this.style.backgroundColor = 'green'">Verde</a><br>
-        <a href="" id="amarelo" onmouseover="javascript: this.style.backgroundColor = 'yellow'">Amarelo</a><br>
+        <a onmouseover="mudarCor('red');">Vermelho</a><br>
+        <a onmouseover="mudarCor('blue');">Azul</a><br>
+        <a onmouseover="mudarCor('green');">Verde</a><br>
+        <a onmouseover="mudarCor('yellow');">Amarelo</a><br>
 
     </div>
 
